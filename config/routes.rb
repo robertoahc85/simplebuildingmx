@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :pruebas
   get 'front/index'
   get 'front/show'
   root 'front#index'
